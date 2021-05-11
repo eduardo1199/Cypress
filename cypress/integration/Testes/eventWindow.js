@@ -44,7 +44,7 @@ describe('Actions', () => {
         .click();
     })
   })
-  it.only("testando método de pesquisa", ()=>{
+  it("testando método de pesquisa", ()=>{
     cy.get("[name=formSexo]").each((value)=>{
        if(value.val() == "M") cy.wrap(value).click();
     })
