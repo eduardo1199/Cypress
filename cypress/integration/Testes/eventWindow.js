@@ -21,6 +21,10 @@ describe('Actions', () => {
     })
     cy.get('#formSexoMasc').click()
     cy.get('#formCadastrar').click();
+
+    //data atual via cypress Cypress Cypress.moment().format("DD/MM/YYYY")
+
+
   })
   it("testando eventos de confirmação", () => {
     const stub = cy.stub().as("alert");
