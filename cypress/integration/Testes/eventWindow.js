@@ -23,8 +23,8 @@ describe('Actions', () => {
     cy.get('#formCadastrar').click();
 
     //data atual via cypress Cypress Cypress.moment().format("DD/MM/YYYY")
-
-
+    //cy.clearLocalStorage() //limpar local storege
+    //cy.viewport(dimensão horizontal, dimensão vertical) testes de responsividade da tela
   })
   it("testando eventos de confirmação", () => {
     const stub = cy.stub().as("alert");

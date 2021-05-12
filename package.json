@@ -1,17 +1,18 @@
 {
-  "name": "Cypress",
+  "name": "curso-cypress",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "cypress": "^7.2.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress":"cypress open"
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^3.6.0",
+    "cypress-xpath": "^1.4.0"
+  }
 }
